@@ -1,0 +1,79 @@
+
+
+The ability to detect the road   has become  an important thing in many applications in modern  Technology, such as
+an autonomous car-maneuvering system that moves a vehicle to a parking spot to perform parallel,
+ perpendicular, or angle parking  on the boundaries of the  road   
+
+
+Advanced driver assistance systems, which either alert
+the driver in dangerous situations or take an active
+part in the driving,
+
+so these systems  are gradually being inserted into
+vehicles. 
+
+Such systems are expected to grow more and
+more complex towards full autonomy during the next
+decade
+
+Looking at other perspective, the role of
+robots in our everyday activities is increasing. 
+
+But the successful completion of a task by robot is highly
+dependent on how effectively and accurately it can navigate
+between source and destination. 
+
+Today the trend is to make
+the robot understand the environment along with the
+navigation
+
+
+
+so Road detection is one of the key issues of environment
+understanding for intelligent vehicles.
+
+To ensure this it becomes very 
+critical to recognize road region and stay on the road boundaries.
+
+Given a single image of an arbitrary road, that may
+not be well-paved, or have clearly delineated edges, or some
+a priori known color or texture distribution, is it possible for a
+computer to find this road?
+
+Road detection from images is a challenging task in computer vision
+
+most of  hand-designed features are sensitive to the variety of circumstances 
+
+affected by continuously changing backgrounds,
+different road types (shape, colour), 
+variable lighting conditions which might cause underexposure for image
+occlusions 
+and weather conditions
+
+Broadly  speaking road detection methods are
+characterized  into three categorize:
+activity driven approach which benefits from the activity of the vehicle  along the roads,
+
+ feature driven depends upon  extracted features  
+
+and model driven that aim   to match road model to images
+.
+so we are intresteded in   activity driven and  model driven for structured roads
+
+
+there are road features learned from deep convolutional networks ,
+which ﬁt to training data but might not adapt to unseen scenarios. 
+So, it is expected to automatically learn universal representations for road detection
+
+ K-means clustering algorithm has been justiﬁed as a fast and effective method 
+ in learning new representations.
+ K-means learned features directly from image patches and demonstrated 
+ su-perior performance in object recognition tasks over other unsupervised feature learning methods. 
+ So, it is natural to apply K-means in our task to learn discriminative and robustroad features
+
+
+
+
+
+
+ 
